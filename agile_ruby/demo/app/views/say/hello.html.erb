@@ -3,4 +3,15 @@
 <p>
 	Time to say 
 	<%= link_to "Goodbye", say_goodbye_path %>!
+	<ul>
+		<li>Addtion: <%= 1+2 %></li>
+		<li>Concatenation: <%= "cow" + "boy" %></li>
+		<li>Time in one hour: <%= 1.hour.from_now.localtime%></li>
+	<ul>
+
+	<ul>
+	 <% @files.each do |file|%>
+	 	<li>File Name is: <%=file%></li>
+	 <% end %>
+	</ul>
 </p>
