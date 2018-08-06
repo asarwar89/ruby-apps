@@ -1,0 +1,20 @@
+// Place all the styles related to the Products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.products {
+	table tr td {
+		padding: 10px;
+	}
+
+	table tr td img {
+		max-height: 100px;
+	}
+
+	table .list_line_odd {
+		background: #e4e8ff;
+	}
+
+	table .list_line_even {
+		background: #f2ffed;
+	}
+}
